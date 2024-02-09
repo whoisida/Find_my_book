@@ -14,7 +14,7 @@ model = SentenceTransformer('cointegrated/rubert-tiny2')
 databook = pd.read_csv('dataset_all.csv')
 
 # Load saved embeddings
-embeddings = torch.load('book_embeddings3.pth')
+embeddings = torch.load('book_embeddings6.pth')
 
 # Function to get most similar books
 def get_most_similar_books(user_query, embeddings):
