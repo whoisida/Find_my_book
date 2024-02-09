@@ -1,2 +1,2 @@
-/Users/idaklimanova/ds_bootcamp/ds-phase-2/project4/book_embeddings3.pth filter=lfs diff=lfs merge=lfs -text
-/Users/idaklimanova/ds_bootcamp/ds-phase-2/project4/Find_my_book/dataset_all.csv filter=lfs diff=lfs merge=lfs -text
+book_embeddings6.pth filter=lfs diff=lfs merge=lfs -text
+dataset_all.csv filter=lfs diff=lfs merge=lfs -text
