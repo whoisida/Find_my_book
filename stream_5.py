@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 model = SentenceTransformer('cointegrated/rubert-tiny2')
 
 # Load dataset
-databook = pd.read_csv('/Users/idaklimanova/ds_bootcamp/ds-phase-2/project4/dataset_all.csv')
+databook = pd.read_csv('dataset_all.csv')
 
 # Load saved embeddings
 embeddings = torch.load('book_embeddings3.pth')
